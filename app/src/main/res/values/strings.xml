@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Bottom sheets</string>
+    <string name="colors">Colores\n</string>
+    <string name="select">selecionado\n</string>
 </resources>
