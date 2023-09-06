@@ -6,5 +6,5 @@
 # Demostracion 
 
 <p align="center">
-  <img src="./capturas/demostracion.gif" alt="Vista previa del video" width="300" height="700" />
+  <img src="./capturas/Bottomsheets.gif" alt="Vista previa del video" width="300" height="700" />
 </p>
