@@ -1,9 +1,12 @@
-# Bottom Sheets
-![Butto](capturas/Buttomsheet.png),
-![Buttomsheet](capturas/Bottomsheets_1.svg)
+# Bottom Sheets*
+![Butto](capturas/Buttomsheet.png)
 
-# Demostracion 
+# Demostracion*
 
 <p align="center">
   <img src="./capturas/Bottomsheets.gif" alt="Vista previa del video" width="300" height="700" />
 </p>
+
+# Mi Aplicacion*
+
+![Buttomsheet](capturas/app.svg)
