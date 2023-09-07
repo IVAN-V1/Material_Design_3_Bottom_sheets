@@ -1,4 +1,4 @@
-package com.ministudio.bottomsheets;
+package com.ministudio.bottomsheets.Java;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -9,6 +9,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
+import com.ministudio.bottomsheets.R;
 
 public class ModalBottomSheet_Java extends BottomSheetDialogFragment {
 

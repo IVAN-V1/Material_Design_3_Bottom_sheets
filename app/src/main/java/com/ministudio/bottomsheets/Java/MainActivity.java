@@ -1,22 +1,16 @@
-package com.ministudio.bottomsheets;
-
-import static android.graphics.Color.BLUE;
-import static android.graphics.Color.GREEN;
-import static android.graphics.Color.RED;
-import static android.graphics.Color.WHITE;
-import static com.afollestad.materialdialogs.color.DialogColorChooserExtKt.colorChooser;
+package com.ministudio.bottomsheets.Java;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
 
-import android.graphics.Color;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 
-import com.afollestad.materialdialogs.MaterialDialog;
 import com.google.android.material.button.MaterialButton;
-
-import java.util.ArrayList;
+import com.ministudio.bottomsheets.Kotlin.Activity_Buttom_Sheet_kotlin;
+import com.ministudio.bottomsheets.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -36,7 +30,22 @@ public class MainActivity extends AppCompatActivity {
 
                 showModalBottomSheet();
 
-                clase clase= new clase();
+
+
+            }
+        });
+
+
+        MaterialButton buttom_sheet_kotlin=findViewById(R.id.button3);
+        buttom_sheet_kotlin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+
+                Intent intent= new Intent(MainActivity.this, Activity_Buttom_Sheet_kotlin.class);
+                startActivity(intent);
+
+
 
             }
         });

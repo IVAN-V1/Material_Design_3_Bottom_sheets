@@ -1,7 +1,15 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.BottomSheets" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.BottomSheets" parent="Theme.Material3.Dark.NoActionBar">
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+    <style name="button_color" parent="Widget.Material3.Button">
+      <item name="backgroundTint">@color/white</item>
+        <item name="android:textColor">@color/black</item>
+
     </style>
 </resources>
